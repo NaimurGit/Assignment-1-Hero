@@ -1,0 +1,44 @@
+/* shared style */
+.btn{
+    background-color: #006A50;
+    font-weight: bold;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 150px;
+ }
+
+ .nav-title{
+    height: 35px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .btn-nav{
+    background-color: white;
+    font-weight: 600px;
+    color: #006A50;
+    padding: 15px 25px;
+    border-radius: 25px;
+    border-style: groove;
+}
+
+/* banner style */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 150px;
+    background-color: #C6E4D6;
+    padding: 60px;
+    border-radius: 15px;
+ }
+ 
