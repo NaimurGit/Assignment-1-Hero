@@ -7,7 +7,9 @@
     border-radius: 10px;
     border: none;
 }
-
+main{
+    margin: 25px 150px;
+}
 /* nav style */
 nav{
     display: flex;
@@ -53,3 +55,17 @@ nav{
     font-weight: bold;
     font-size: 55px;
  }
+/* main style */
+.card{
+    display: flex;
+    gap: 15px;
+}
+.card-inside{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 60px 0px gray;
+}
+.recent-news{
+    display: flex;
+    gap: 20px;
+}
