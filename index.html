@@ -5,10 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bangladesh 2.0</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
 </head>
 
-<body>
+<body class="open-sans-normal">
     <header>
         <nav>
             <h3 class="nav-title">Bangladesh 2.0</h3>
@@ -26,7 +31,7 @@
         </section>
     </header>
     <main>
-        <section>
+        <section class="vision">
             <h3>The Vision of Future</h3>
             <p>
                 Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting
@@ -39,7 +44,7 @@
                     <h4 class="skill-title">Digital Transformation</h4>
                     <p class="skill-description">Creating a nationwide digital ecosystem to enhance connectivity and
                         access to services for all citizens.</p>
-                    <button class="btn"> Learn More</button>
+                    <button style="background-color: black;" class="btn"> Learn More</button>
                 </div>
                 <div style="background-color: aquamarine;" class="card-inside">
                     <img src="assets/card-icon.png" alt="">
@@ -53,9 +58,25 @@
                     <h4 class="skill-title">Modern Infrastructure</h4>
                     <p class="skill-description">Building state-of-the-art infrastructure to support economic growth and
                         global competitiveness.</p>
-                    <button class="btn"> Learn More</button>
+                    <button style="background-color: blue;" class="btn"> Learn More</button>
                 </div>
             </div>
+        </section>
+        <section class="quote">
+
+            <p>Every year, nearly two and half million Bangladeshis enter our labour market. <br> <br>
+
+                In a large population where nearly two-third is young, Bangladesh is challenged to make learning suited
+                to meet the needs of today and tomorrow. <br>
+
+                Yet, we see the world of work is changing where a younger person has to adapt constantly, re-skill,
+                adopt newer attitudes. As Bangladesh is set to graduate as a Middle Income Country, we reckon the vital
+                <br>
+                need to secure ourselves in terms of ‘learning’ and ‘technology’. </p>
+            <h3>Dr. Muhammad Yunus</h3>
+            <h5 style="color: #0E0E0E;">Chief Adviser of the People's Republic of Bangladesh</h5>
+
+
         </section>
         <section>
             <h3>Recent News</h3>
@@ -65,7 +86,7 @@
                 transformation, and robust infrastructure, the country is set to become a global model of development.
             </p>
             <div class="recent-news">
-                <img src="assets/satelite.png" alt="">
+                <img class="img-style" src="assets/satelite.png" alt="">
                 <div>
                     <h3>Bangladesh Launches New Satellite</h3>
                     <img src="assets/al-jazeera.png" alt="">
@@ -90,7 +111,7 @@
                     <button class="btn">Read More</button>
 
                 </div>
-                <img src="assets/satelite.png" alt="">
+                <img class="img-style" src="assets/satelite.png" alt="">
             </div>
 
         </section>
@@ -103,16 +124,39 @@
             </p>
             <div>
                 <ul class="donate-amount">
-                    <li class="hundred" style="box-shadow: 0px 6px 20px 0px gray;"><h3>100 Taka</h3></li>
-                    <li class="dif-style hundred" style="box-shadow: 0px 6px 20px 0px gray;"><h3>200 Taka</h3></li>
-                    <li class="hundred" style="box-shadow: 0px 6px 20px 0px gray;"><h3>500 Taka</h3></li>
-                    <li class="hundred" style="box-shadow: 0px 6px 20px 0px gray;"><h3>1000 Taka</h3></li>
+                    <li class="hundred" style="box-shadow: 0px 6px 20px 0px gray;">
+                        <h3>100 Taka</h3>
+                    </li>
+                    <li class="dif-style hundred" style="box-shadow: 0px 6px 20px 0px gray;">
+                        <h3>200 Taka</h3>
+                    </li>
+                    <li class="hundred" style="box-shadow: 0px 6px 20px 0px gray;">
+                        <h3>500 Taka</h3>
+                    </li>
+                    <li class="hundred" style="box-shadow: 0px 6px 20px 0px gray;">
+                        <h3>1000 Taka</h3>
+                    </li>
                 </ul>
-             <div>
-                <input class="input" type="text" placeholder="Other Amount (Taka)">
-             </div>
+                <div>
+                    <input class="input" type="text" placeholder="Other Amount (Taka)">
+                </div>
+                <br> <br>
+                <button class="btn">Donate</button>
             </div>
-               
+
+        </section>
+        <section style="background-color: #C6E4D6;" class="donate">
+            <h3>Subscribe Newsletter</h3>
+            <p>
+                Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting
+                inclusive growth.
+            </p>
+            <div class="subscribe-button">
+                <input class="input" type="email" placeholder="Your Email">
+                <button>Subscribe</button>
+            </div>
+
+            <p>We promise not to spam you!</p>
         </section>
     </main>
     <footer></footer>
